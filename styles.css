@@ -4,21 +4,47 @@ p {
 }
 p.important {
 	font-size: 1.5em;
+	font-weight: 900;
 }
 h1 {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 2em;
 }
-h3.bigger {
-	font-size: 2.5em;
-}	
-h2#orange {
-	color: orange;
+.typewriter {
+	font-family: "Courier New", Courier, monospace;
 }
-div#special {
-	margin: 0 3em 0 3em;
-	font-family: Arial, Helvetica, sans-serif;
+.emphasized {
+	font-style: italic;
 }
-img.block {
-	display: block;
+
+.standout {
+	color: #cc0000;
+}
+p.spacing {
+	letter-spacing: .1em;
+	line-height: 2em;
+	word-spacing: 1em;
+}
+h3 {
+	text-align: center;
+}
+p.justify {
+	text-align: justify;
+}
+p.blockindent {
+	text-indent: 2em;
+}
+blockquote {
+	color: gray;
+	font-size: .75em;
+}
+p.margin {
+	margin: 2em;
+}
+.purpleborder {
+	border: 3px dashed purple;
+	padding: 2em;
+}
+h4, p.centered {
+	text-align: center;
+}
 }
