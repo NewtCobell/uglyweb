@@ -23,6 +23,9 @@ div#special {
 img.block {
 	display: block;
 }
+img.indent {
+	margin-left: 5em;
+}
 .typewriter {
 	font-family: "Courier New", Courier, monospace;
 }
@@ -59,4 +62,45 @@ p.margin {
 }
 h4, p.centered {
 	text-align: center;
+}
+img.centered-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.floater {
+	float: left;
+	margin: 0 .75em .5em 0;
+}
+p.clear-float {
+	clear: both;
+}
+a {
+	color: gray;
+}
+a:hover {
+	color: orange;
+}
+ul {
+	margin: 0 1.5em 0 1.5em;
+}
+ol.special {
+	margin: 0 1.5em 0 1.5em;
+}
+li {
+	margin: .75em;
+}
+ul {
+	list-style-position: outside;
+	list-style-type: square;
+}
+div#special p {
+	font-size: 2em;
+}
+th, td {
+	border: 1px solid black;
+	padding: .25em;
+}
+table {
+	border-collapse: collapse;
 }

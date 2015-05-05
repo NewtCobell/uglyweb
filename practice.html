@@ -4,11 +4,12 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-    <h1>Newtonia Cobell</h1>
+    <h1 id="top">Newtonia Cobell</h1>
     <h2>That's my name.</h2>
     <p class="important"><span class="standout">Warning:</span> We have no slow lorises here.</p>
-    <img class="block" src="http://www.asmarterwaytolearn.com/pics/loris.jpg" alt="Slow Loris" width="250" height="197">
-    <img class="block" src="http://www.asmarterwaytolearn.com/pics/loris.jpg" alt="Slow Loris 2" width="125" height="99">
+    	<img class="block" src="http://www.asmarterwaytolearn.com/pics/loris.jpg" alt="Slow Loris" width="250" height="197">
+		<img class="indent block" src="http://www.asmarterwaytolearn.com/pics/loris.jpg" alt="Slow Loris 2" width="125" height="99">
+		<img class="centered-image" src="http://www.asmarterwaytolearn.com/pics/loris.jpg">
     <h3 class="special conspicuous enhanced">Hey now!</h3>
     <h2 id="orange">This heading should be orange.</h2>
     <div id="special">
@@ -18,6 +19,7 @@
     <p class="typewriter">This paragraph is also in typewriter text.</p>
     <h3 class="special conspicuous enhanced">Hey now!</h3>
     <h2 class="italics">Now we are learning font styles!</h2>
+    </div>
     <p class="spacing"><i>This is italics,</i> while <em>this is emphasis</em>.  <b>This is bold</b> while <strong>this is strong</strong>. Now we're going to <span class="emphasized">learn to use span tags!</span></p>
     <h3>This is a centered heading</h3>
     <h4 class="centered">This heading should be centered as well</h4>
@@ -26,5 +28,101 @@
     <blockquote><p>Here is a new paragraph which is inside blockquote tags.  I'm going to put some additional text in here to see what happens to it.  I'm going to put some additional text in here to seeI'm going to put some additional text in here to seeI'm going to put some additional text in here to seeI'm going to put some additional text in here to seeI'm going to put some additional text in here to see</p></blockquote>
     <p class="margin">This is a paragraph with an extra 2em margin on all sides.  Extra text: I'm going to put some additional text in here to see what happens to it.  I'm going to put some additional text in here to see what happens to it.  I'm going to put some additional text in here to see what happens to it.  I'm going to put some additional text in here to see what happens to it.  I'm going to put some additional text in here to see what happens to it.  </p>
     <h3 class="purpleborder">This is a heading with a purple border (now with bonus padding!)</h3>
+    <img class="floater" src="http://www.asmarterwaytolearn.com/pics/loris.jpg" alt="Slow Loris 2" width="125" height="99">
+    <p>This is a paragraph showing how a float works.  Extra text: I'm going to put some additional text in here to see what happens to it.  I'm going to put some additional text in here to see what happens to it.  I'm going to put some additional text in here to see what happens to it.  I'm going to put some additional text in here to see what happens to it.  I'm going to put some additional text in here to see what happens to it.  </p>
+    <p class="clear-float">This is a paragraph showing how a paragraph clears a float.  Extra text: I'm going to put some additional text in here to see what happens to it.  I'm going to put some additional text in here to see what happens to it.  I'm going to put some additional text in here to see what happens to it.  I'm going to put some additional text in here to see what happens to it.  I'm going to put some additional text in here to see what happens to it.  </p>
+    <a href="http://www.stackoverflow.com">Stack Overflow</a><br>
+    <a href="http://www.asmarterwaytolearn.com/why-exercises.html">Why Exercises</a><br>
+    <a href="#top">Return to the top of the page</a>
+    <p id="openWindow">Tell me a little more about this.</p>
+    <script> document.getElementById("openWindow").onclick=openWindow; function openWindow() {
+    	var w = window.open("Practice.html","","width=400,height=300,left=500,top=400");
+    }
+    </script>
+    <p><a href="http://www.asmarterwaytolearn.com" target="_blank">A smarter way to learn</a></p>
+    <a href="http://www.asmarterwaytolearn.com" target="_blank"><img src="http://www.asmarterwaytolearn.com/robo_guy.png"></a>
+    <img src="http://www.asmarterwaytolearn.com/stooges.jpg" usemap="#stooges">
+    <map name="stooges">
+    <area shape="circle" alt="Larry" coords="208,66,33" href="http://en.wikipedia.org/wiki/Larry_Fine">
+    <area shape="circle" alt="Curly" coords="126,93,31" href="http://en.wikipedia.org/wiki/Curly_Howard">
+    <area shape="circle" alt="Moe" coords="56,56,47" href="http://en.wikipedia.org/wiki/Moe_Howard">
+    </map><br>
+    <ul>
+      <li>Sun</li>
+      <li>Moon</li>
+      <li>Planets</li>
+      <li>Stars</li>
+     </ul><br>
+     <table>
+       <tr>
+         <td>Row 1, Column 1</td>
+         <td>Row 1, Column 2</td>
+       </tr>
+       <tr>
+         <td>Row 2, Column 1</td>
+         <td>Row 2, Column 2</td>
+       </tr>
+     </table><br>
+     <table>
+       <tr>
+         <th scope="col"></th>
+         <th scope="col">Dog</th>
+         <th scope="col">Cat</th>
+       </tr>
+       <tr>
+         <th scope="row">Species</th>
+         <td>Canine</td>
+         <td>Feline</td>
+       </tr>
+       <tr>
+         <th scope="row">Sound</th>
+         <td>Bark</td>
+         <td>Meow</td>
+       </tr>
+       <tr>
+         <th scope="row">Immature</th>
+           <td>Puppy</td>
+           <td>Kitten</td>
+       </tr>
+    </table><br>
+    <table>
+      <tr>
+        <th scope="col">Series</th>
+        <th scope="col">Ship</th>
+        <th scope="col">Captain</th>
+        <th scope="col">First Officer</th>
+      </tr>
+      <tr>
+        <th scope="row">TOS</th>
+        <td>Enterprise</td>
+        <td>Kirk</td>
+        <td>Spock</td>
+      </tr>
+      <tr>
+        <th scope="row">TNG</th>
+        <td>Enterprise-D</td>
+        <td>Picard</td>
+        <td>Riker</td>
+      </tr>
+      <tr>
+        <th scope="row">Voyager</th>
+        <td>Voyager</td>
+        <td>Janeway</td>
+        <td>Chakotay</td>
+      </tr>
+     </table><br>
+     <table>
+       <tr>
+         <th scope="col">TV</th>
+         <th scope="col">Movies</th>
+       </tr>
+       <tr>
+         <td>Gorn</td>
+         <td>Nero</td>
+       </tr>
+       <tr>
+         <td colspan="2">Khan Noonian Singh</td>
+       </tr>
+    </table>
   </body>
-</html> 
+</html>
