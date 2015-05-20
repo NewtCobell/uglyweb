@@ -6,10 +6,31 @@
   <body>
     <h1 id="top">Newtonia Cobell</h1>
     <h2>That's my name.</h2>
+    <form>
+      <input type="password" name="pass" size="20" maxlength="40"><br><br>
+      <input type="submit" value="log in"><br><br>
+      How did you find me?<br>
+      <input type="radio" name="found_me" value="Google">Google
+      <input type="radio" name="found_me" value="I got lucky">I got lucky!<br><br>
+      How do you feel about this site?<br>
+      <input type="checkbox" name="feels" value="It's changed my life">It's changed my life<br>
+      <input type="checkbox" name="feels" value="Totally going to return" checked="checked">Totally going to return<br><br>
+      <input type="submit" value="Send"><br><br>
+      <textarea name="notes" rows="10" cols="25">Type notes here!</textarea>
+    </form>
+    Choose your favorite Star Trek captain below:<br>
+    <select name="favorite_captain">
+      <option value="Kirk">Kirk</option>
+      <option value="Picard">Picard</option>
+      <option value="Sisko">Sisko</option>
+      <option value="Janeway">Janeway</option>
+      <option value="Archer">Archer</option>
+      <option value="Pike">Pike</option>
+    </select>
     <p class="important"><span class="standout">Warning:</span> We have no slow lorises here.</p>
-    	<img class="block" src="http://www.asmarterwaytolearn.com/pics/loris.jpg" alt="Slow Loris" width="250" height="197">
-		<img class="indent block" src="http://www.asmarterwaytolearn.com/pics/loris.jpg" alt="Slow Loris 2" width="125" height="99">
-		<img class="centered-image" src="http://www.asmarterwaytolearn.com/pics/loris.jpg">
+      <img class="block" src="http://www.asmarterwaytolearn.com/pics/loris.jpg" alt="Slow Loris" width="250" height="197">
+    <img class="indent block" src="http://www.asmarterwaytolearn.com/pics/loris.jpg" alt="Slow Loris 2" width="125" height="99">
+    <img class="centered-image" src="http://www.asmarterwaytolearn.com/pics/loris.jpg">
     <h3 class="special conspicuous enhanced">Hey now!</h3>
     <h2 id="orange">This heading should be orange.</h2>
     <div id="special">
@@ -36,7 +57,7 @@
     <a href="#top">Return to the top of the page</a>
     <p id="openWindow">Tell me a little more about this.</p>
     <script> document.getElementById("openWindow").onclick=openWindow; function openWindow() {
-    	var w = window.open("Practice.html","","width=400,height=300,left=500,top=400");
+      var w = window.open("Practice.html","","width=400,height=300,left=500,top=400");
     }
     </script>
     <p><a href="http://www.asmarterwaytolearn.com" target="_blank">A smarter way to learn</a></p>
@@ -111,7 +132,7 @@
         <td>Chakotay</td>
       </tr>
      </table><br>
-     <table>
+     <table id="trek_villains">
        <tr>
          <th scope="col">TV</th>
          <th scope="col">Movies</th>
@@ -120,7 +141,7 @@
          <td>Gorn</td>
          <td>Nero</td>
        </tr>
-       <tr>
+       <tr class="khan">
          <td colspan="2">Khan Noonian Singh</td>
        </tr>
     </table>
